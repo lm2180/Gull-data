@@ -27,7 +27,7 @@ citation("psych")
 citation("tidyr")
 citation("lme4")
 #Set up working directory and retrieve raw data
-setwd("C:/Users/jizza/OneDrive/Desktop/Uni/Year 3/Bio 350 Dissertaion project/Seagull/GLMM data")
+setwd("C:/Users/")
 glmmdata<-read.csv("gull_obs_GLMM.csv",header=T)
 view(glmmdata)
 #remove NA and OOS data points
